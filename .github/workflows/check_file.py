@@ -1,7 +1,7 @@
 import hashlib, os, smtplib, requests
 from email.mime.text import MIMEText
 
-URL = "https://URL-DE-LA-PAGINA-DEL-MINISTERIO"
+URL = "https://www.transportes.gob.es/informacion-para-el-ciudadano/empleo-publico/procesos-selectivos/convocatorias-2025/personal-funcionario/cterc-tl-oep-2025"
 HASH_FILE = "last_hash.txt"
 
 def get_hash(url):
