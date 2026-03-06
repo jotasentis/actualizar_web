@@ -2,7 +2,7 @@ name: Monitor página oposiciones
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Cada hora
+    - cron: '*/20 * * * *'
   workflow_dispatch:       # Permite ejecutar manualmente
 
 jobs:
